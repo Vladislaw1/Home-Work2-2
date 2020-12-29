@@ -401,10 +401,6 @@ footer {
 .work-list .link {
   text-decoration: none;
 }
-.work-list .link:hover {
-  border: 2px solid var(--title-text-color);
-  text-decoration: none;
-}
 .filter-list .button:hover {
   background-color: #2196f3;
   color: #ffffff;
