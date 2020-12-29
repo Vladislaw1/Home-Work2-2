@@ -370,6 +370,8 @@ footer {
 .hero .button {
   color: #ffffff;
   background-color: var(--secondary-color);
+  border: 6px solid var(--secondary-color);
+  border-radius: 4px;
 }
 
 /*---PORTFOLIO---*/
