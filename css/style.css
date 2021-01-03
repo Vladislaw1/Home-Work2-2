@@ -39,22 +39,13 @@
 }
 
 /*---Header---*/
-.nav-contact .tel {
-  color: var(--paragraph-color);
-  font-size: 14px;
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
-  line-height: 1;
-  letter-spacing: 0.02em;
-
-  text-decoration: none;
-}
+.nav-contact .tel,
 .nav-contact .mail {
   color: var(--paragraph-color);
   font-size: 14px;
   font-family: Roboto, sans-serif;
   font-weight: 500;
-  line-height: 1;
+  line-height: 1.1;
   letter-spacing: 0.02em;
 
   text-decoration: none;
@@ -85,20 +76,13 @@
   font-family: Roboto, sans-serif;
   font-size: 14px;
   font-weight: 500;
-  line-height: 1;
+  line-height: 1.1;
   letter-spacing: 0.02em;
 
   text-decoration: none;
 }
 .site-nav .link.current {
   color: var(--secondary-color);
-  font-family: Roboto, sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1;
-  letter-spacing: 0.02em;
-
-  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -140,21 +124,13 @@
   font-size: 14px;
   line-height: 1.7;
 }
-/*---Work---*/
-/*.work-list h3 {
-  font-family: Roboto, sans-serif;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-}*/
 /*---Our-team---*/
-.team-list h3 {
+.team-list .name {
   color: var(--title-text-color);
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1;
+  line-height: 1.1;
   letter-spacing: 0.03em;
 }
 .team-list .profesion {
@@ -163,7 +139,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1;
+  line-height: 1.1;
   letter-spacing: 0.03em;
 }
 /*---Footer---*/
@@ -175,7 +151,7 @@ footer {
   font-family: Roboto, sans-serif;
   font-size: 14px;
   font-weight: 400;
-  line-height: 1;
+  line-height: 1.4;
   letter-spacing: 0.03em;
 }
 .footer .footer-mail,
@@ -184,7 +160,7 @@ footer {
   font-family: ROboto, sans-serif;
   font-size: 14px;
   font-weight: 400;
-  line-height: 1;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
@@ -196,18 +172,13 @@ footer {
 .footer .footer-tel:focus {
   color: var(--secondary-color);
 }
-.text-field {
-  background: #2f303a;
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 5px;
-}
 /*---Button---*/
 .hero .button {
   color: #ffffff;
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 700;
-  line-height: 1;
+  line-height: 1.8;
   background-color: var(--secondary-color);
   border: 6px solid var(--secondary-color);
   border-radius: 4px;
@@ -218,30 +189,14 @@ footer {
   border-bottom: 1px solid #ececec;
 }
 .filter-list .button {
-  background-color: #f5f4fa;
-  border: 2px solid #f5f4fa;
-  border-radius: 4px;
   font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 1;
   letter-spacing: 0.03em;
-}
-.work-list .title {
-  color: var(--title-text-color);
-  font-family: Roboto, sans-serif;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-}
-.work-list .text {
-  color: var(--paragraph-color);
-  font-family: Roboto, sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 0.03em;
-}
-.work-list .link {
-  text-decoration: none;
+
+  background-color: #f5f4fa;
+  border: 2px solid #f5f4fa;
+  border-radius: 4px;
 }
 .filter-list .button:hover {
   background-color: #2196f3;
@@ -252,4 +207,24 @@ footer {
   background-color: #2196f3;
   color: #ffffff;
   border: 2px solid #2196f3;
+}
+
+.work-list .title {
+  color: var(--title-text-color);
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.work-list .text {
+  color: var(--paragraph-color);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+}
+.work-list .link {
+  text-decoration: none;
 }
