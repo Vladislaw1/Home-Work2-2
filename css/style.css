@@ -25,7 +25,17 @@
 }
 /*---Logo---*/
 .logo {
-  color: black;
+  color: #000000;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+
+  text-decoration: none;
+}
+.footer .logo {
+  color: #ffffff;
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
@@ -151,6 +161,7 @@ footer {
   font-family: Roboto, sans-serif;
   font-size: 14px;
   font-weight: 400;
+  font-style: normal;
   line-height: 1.4;
   letter-spacing: 0.03em;
 }
@@ -160,6 +171,7 @@ footer {
   font-family: ROboto, sans-serif;
   font-size: 14px;
   font-weight: 400;
+  font-style: normal;
   line-height: 1.7;
   letter-spacing: 0.03em;
   text-decoration: none;
